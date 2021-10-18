@@ -44,7 +44,7 @@ var listaProductos = [cocacola500, cocacola1000, cervezaQuilmes, cervezaBrhama, 
 
 //alfabeticamente  por precio
 listaProductos.sort((obj1, obj2) =>{
-    if(obj1.precio > obj2.precios){
+    if(obj1.precio > obj2.precio){
         return 1;
     }else if (obj1.precio < obj2.precio ){
         return -1;
